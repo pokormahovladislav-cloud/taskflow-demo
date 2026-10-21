@@ -1,0 +1,122 @@
+:root {
+  --f7-theme-color: #2563eb;
+  --f7-theme-color-rgb: 37, 99, 235;
+  --f7-theme-color-shade: #1d4ed8;
+  --f7-theme-color-tint: #3b82f6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+}
+
+.home-page,
+.about-page {
+  padding: 20px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.welcome-section {
+  margin-bottom: 24px;
+}
+
+.welcome-section h1,
+.about-page h1 {
+  font-size: 28px;
+  color: #1e293b;
+}
+
+.welcome-section p,
+.about-page p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.tasks-summary {
+  background: #2563eb;
+  color: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.tasks-summary h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.tasks-section h2,
+.about-page h2 {
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.task-card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.task-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-status,
+.task-priority {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-done {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-progress {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status-todo {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.priority-high {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.priority-medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.priority-low {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.task-title {
+  margin: 16px 0 8px;
+  font-size: 17px;
+  color: #1e293b;
+}
+
+.task-description {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.about-button,
+.back-button {
+  margin-top: 24px;
+}
